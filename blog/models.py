@@ -18,4 +18,4 @@ class Post(models.Model):
 		return self.title
 
 
- 
+ #Post.objects.create(0)
