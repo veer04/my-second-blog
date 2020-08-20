@@ -18,7 +18,7 @@
                 <p class="top-menu">Hello {{ user.username }} ! <small>(<a href="{% url 'logout' %}"><b>Log out</b></a>)</small></p>
 
             {% else %}
-                <a href="{% url 'login' %}" class="top-menu"><span class="glyphicon glyphicon-lock"></span></a>
+                <a href="{% url 'login' %}" class="top-menu"><small>For author only : </small><span class="glyphicon glyphicon-lock"> </span></a>
             {% endif %}
 
             <h1><a href="/">Team_delta's Blog</a></h1>
